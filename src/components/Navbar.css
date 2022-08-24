@@ -1,0 +1,31 @@
+.nav{
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #47f264;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    font-size: 22px;
+    color: rgb(93, 27, 148);
+    font-family: cursive;
+    cursor: pointer;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+.navbar ul li:hover{
+    background: rgb(220, 162, 233);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
